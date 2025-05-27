@@ -2,12 +2,72 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Weather and Seasons Quiz</title>
   <style>
-    body { font-family: Arial; margin: 20px; background: #f0f8ff; }
-    h1 { color: #0077b6; }
-    .section { margin-bottom: 20px; }
-    input[type="text"] { width: 200px; margin-top: 5px; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f0f8ff;
+      color: #333;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #0077b6;
+    }
+
+    .section {
+      margin-bottom: 30px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    ol {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 5px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+
+      .section {
+        padding: 15px;
+      }
+
+      h1, h2 {
+        font-size: 1.4em;
+      }
+
+      li {
+        font-size: 1em;
+      }
+    }
   </style>
 </head>
 <body>
